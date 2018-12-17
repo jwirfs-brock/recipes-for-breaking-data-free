@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>CTP Final Project: Recipes For Breaking Data Free</title>
 
 
   </head>
@@ -57,7 +57,7 @@
                 <br>
                 <img class="rounded-circle" src="beating-heart.gif" alt="Beating heart animation" width="130" height="130">
                 <h2>Voicing A Heartbeat</h2>
-                <p>(Recipe #2) This data sonification presents 24-hours of heartbeat data compressed into a single minute. Each 5 seconds corresponds to a 2-hour segment of time, with the average heartbeat from that segment performed. The "badump" sound was created with my voice and by tapping the microphone. The background noise is from an actual heartbeat recording (done with a stethoscope) by Freesound.org user <a href="https://freesound.org/people/Benboncan/sounds/62912/">Benboncan</a>, shared with a Creative Commons (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) license.</p>
+                <p>(<a href="#Recipe2">Recipe #2<a>) This data sonification presents 24-hours of heartbeat data compressed into a single minute. Each 5 seconds corresponds to a 2-hour segment of time, with the average heartbeat from that segment performed. The "badump" sound was created with my voice and by tapping the microphone. The background noise is from an actual heartbeat recording (done with a stethoscope) by Freesound.org user <a href="https://freesound.org/people/Benboncan/sounds/62912/">Benboncan</a>, shared with a Creative Commons (<a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>) license.</p>
                 <p><audio controls>
          <source src="performing-heartbeat.mp3" type="audio/mpeg">
        Your browser does not support the audio element.
@@ -67,9 +67,19 @@
                 <br>
                 <img class="rounded-circle" src="walking.gif" alt="Shoe walking animation" width="140" height="140">
                 <h2>Quarter-Stepping</h2>
-                <p>(Recipe #4) This data sonification presents 24-hours of step data compressed into 30 seconds. Steps have been converted into cents, with 25 cents (one quarter coin) representing 25 steps. Each 15-minute period corresponds to one discrete instance of stacks of quarters dropping. Quarters were dropped in groups of 1, 2 or 4. For example, if I walked 253 steps between 6:00 am and 6:15 am, you would hear two 4-quarter stacks and one two-quarter stack dropping, layered on top of each other but slightly staggered.</p>
+                <p>(<a href="#Recipe4">Recipe #4</a>) This data sonification presents 24-hours of step data compressed into 30 seconds. Steps have been converted into cents, with 25 cents (one quarter coin) representing 25 steps. Each 15-minute period corresponds to one discrete instance of stacks of quarters dropping. Quarters were dropped in groups of 1, 2 or 4. For example, if I walked 253 steps between 6:00 am and 6:15 am, you would hear two 4-quarter stacks and one two-quarter stack dropping, layered on top of each other but slightly staggered.</p>
                 <p><audio controls>
          <source src="quarter-steps.mp3" type="audio/mpeg">
+       Your browser does not support the audio element.
+       </audio></p>
+              </div><!-- /.col-lg-4 -->
+              <div class="col-lg-4" style="background-color:#93FFB5">
+                <br>
+                <img class="rounded-circle" src="heartbeat-duet.gif" alt="Two hearts beating animation" width="140" height="140">
+                <h2>Heartbeat Duet</h2>
+                <p>(<a href="#Recipe2">Recipe #2</a> and <a href="#Recipe3">Recipe #3</a>) This sonification, performed by me and my mom, Rebecca Wirfs-Brock, represents juxtaposes two peoples' heart rate data for the same day, compressed into a one-minute audio performance. It was recorded asynchronously and then edited together. In this version, you can also hear Rebecca saying the time intervals so you can track what time of day it is.</p>
+                <p><audio controls>
+         <source src="heartbeat-duet.mp3" type="audio/mpeg">
        Your browser does not support the audio element.
        </audio></p>
               </div><!-- /.col-lg-4 -->
